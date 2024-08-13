@@ -1,0 +1,221 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ariana Grande",
+      "email": "arianagrande@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "name": "",
+      "email": "",
+      "password": ""
+    }
+  ],
+  "orders": [],
+  "clothing": [
+    {
+      "id": 1,
+      "description": "Black Nike T-shirt",
+      "brand": "Nike",
+      "size": "S",
+      "color": "black",
+      "material": "cotton",
+      "imageIcon": "src/assets/cloth1.png",
+      "kitId": 1
+    },
+    {
+      "id": 2,
+      "description": "Blue Adidas T-shirt",
+      "brand": "Adidas",
+      "size": "M",
+      "color": "blue",
+      "material": "polyester",
+      "imageIcon": "src/assets/cloth2.png",
+      "kitId": 2
+    },
+    {
+      "id": 3,
+      "description": "Red Puma T-shirt",
+      "brand": "Puma",
+      "size": "S",
+      "color": "red",
+      "material": "spandex",
+      "imageIcon": "src/assets/cloth3.png",
+      "kitId": 3
+    },
+    {
+      "id": 4,
+      "description": "Gray Under Armour T-shirt",
+      "brand": "Under Armour",
+      "size": "M",
+      "color": "gray",
+      "material": "nylon",
+      "imageIcon": "src/assets/cloth4.png",
+      "kitId": 1
+    },
+    {
+      "id": 5,
+      "description": "Green Reebok T-shirt",
+      "brand": "Reebok",
+      "size": "S",
+      "color": "green",
+      "material": "cotton",
+      "imageIcon": "src/assets/cloth5.png",
+      "kitId": 2
+    },
+    {
+      "id": 6,
+      "description": "Black New Balance T-shirt",
+      "brand": "New Balance",
+      "size": "M",
+      "color": "black",
+      "material": "spandex",
+      "imageIcon": "src/assets/cloth6.png",
+      "kitId": 3
+    },
+    {
+      "id": 7,
+      "description": "White Fila T-shirt",
+      "brand": "Fila",
+      "size": "S",
+      "color": "white",
+      "material": "polyester",
+      "imageIcon": "src/assets/cloth7.png",
+      "kitId": 1
+    },
+    {
+      "id": 8,
+      "description": "Purple ASICS T-shirt",
+      "brand": "ASICS",
+      "size": "M",
+      "color": "purple",
+      "material": "nylon",
+      "imageIcon": "src/assets/cloth8.png",
+      "kitId": 2
+    },
+    {
+      "id": 9,
+      "description": "Orange Converse T-shirt",
+      "brand": "Converse",
+      "size": "S",
+      "color": "orange",
+      "material": "cotton",
+      "imageIcon": "src/assets/cloth9.png",
+      "kitId": 3
+    },
+    {
+      "id": 10,
+      "description": "Yellow Vans T-shirt",
+      "brand": "Vans",
+      "size": "M",
+      "color": "yellow",
+      "material": "spandex",
+      "imageIcon": "src/assets/cloth10.png",
+      "kitId": 1
+    },
+    {
+      "id": 11,
+      "description": "Pink Lululemon T-shirt",
+      "brand": "Lululemon",
+      "size": "S",
+      "color": "pink",
+      "material": "polyester",
+      "imageIcon": "src/assets/cloth11.png",
+      "kitId": 2
+    },
+    {
+      "id": 12,
+      "description": "Teal Columbia T-shirt",
+      "brand": "Columbia",
+      "size": "M",
+      "color": "teal",
+      "material": "nylon",
+      "imageIcon": "src/assets/cloth12.png",
+      "kitId": 3
+    },
+    {
+      "id": 13,
+      "description": "Maroon Champion T-shirt",
+      "brand": "Champion",
+      "size": "S",
+      "color": "maroon",
+      "material": "cotton",
+      "imageIcon": "src/assets/cloth13.png",
+      "kitId": 1
+    },
+    {
+      "id": 14,
+      "description": "Navy Patagonia T-shirt",
+      "brand": "Patagonia",
+      "size": "M",
+      "color": "navy",
+      "material": "polyester",
+      "imageIcon": "src/assets/cloth14.png",
+      "kitId": 2
+    },
+    {
+      "id": 15,
+      "description": "Brown H&M T-shirt",
+      "brand": "H&M",
+      "size": "S",
+      "color": "brown",
+      "material": "spandex",
+      "imageIcon": "src/assets/cloth15.png",
+      "kitId": 3
+    },
+    {
+      "id": 16,
+      "description": "Burgundy Gap T-shirt",
+      "brand": "Gap",
+      "size": "M",
+      "color": "burgundy",
+      "material": "cotton",
+      "imageIcon": "src/assets/cloth16.png",
+      "kitId": 1
+    }
+  ],
+  "plans": [
+    {
+      "id": 1,
+      "duration": 7,
+      "basePrice": 50,
+      "numOfClothes": 5
+    },
+    {
+      "id": 2,
+      "duration": 15,
+      "basePrice": 100,
+      "numOfClothes": 7
+    },
+    {
+      "id": 3,
+      "duration": 30,
+      "basePrice": 200,
+      "numOfClothes": 10
+    }
+  ],
+  "kits": [
+    {
+      "id": 1,
+      "name": "Casual",
+      "factor": 1
+    },
+    {
+      "id": 2,
+      "name": "Workaholic",
+      "factor": 1.25
+    },
+    {
+      "id": 3,
+      "name": "Party",
+      "factor": 1.5
+    },
+    {
+      "id": 4,
+      "name": "Custom",
+      "factor": 2
+    }
+  ]
+}

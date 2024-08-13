@@ -1,0 +1,48 @@
+.profile-card {
+    margin: 5rem auto;
+    width: 30%;
+}
+
+img.return {
+    width: 1rem;
+    height: auto;
+    margin-right: 90%;
+    cursor: pointer;
+}
+
+img.user {
+    width: 8rem;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+mat-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-form-field {
+    width: 80%;
+}
+
+button {
+    font-weight: 700;
+    font-family: 'Nunito';
+
+    &.save {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+
+    &.enabled {
+        opacity: 1;
+        pointer-events: all;
+    }
+}
+
+mat-card-actions {
+    display: flex;
+    gap: 1rem;
+}

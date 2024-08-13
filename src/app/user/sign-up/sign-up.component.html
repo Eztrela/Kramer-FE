@@ -1,0 +1,39 @@
+<div class="sign-up-section">
+  <mat-card class="sign-up-card">
+      <mat-card-title>
+        Sign up
+      </mat-card-title>
+      <mat-card-content>
+        <form (ngSubmit)="onSubmit()" #signUpForm="ngForm">
+          <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input type="text" matInput required name="name" [(ngModel)]="user.name">
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input type="email" matInput required name="email" [(ngModel)]="user.email">
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input matInput required [type]="hide ? 'password' : 'text'" name="password" [(ngModel)]="user.password">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+              [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+          </mat-form-field>
+
+          <div class="sign-in-text">
+            Already have an account? <a (click)="goToSignIn()" class="purple">Sign in</a>
+          </div>
+
+          <mat-card-actions>
+            <div class="sign-up-btn">
+              <button mat-raised-button color="primary" type="submit" [disabled]="!signUpForm?.valid" [ngClass]="{'disabled-button': !signUpForm?.valid}">Sign up</button>
+            </div>
+          </mat-card-actions>
+        </form>
+    </mat-card-content>
+  </mat-card>
+</div>
