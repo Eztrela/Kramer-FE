@@ -1,0 +1,10 @@
+<div class="kit-selection-section">
+    <h1>SELECT A KIT</h1>
+    <div class="kits">
+        <mat-card *ngFor="let kit of kits" class="kit-card" (click)="isUserLoggedIn ? toggleSelected(kit) : goToSignIn()">
+            <img class="kit-image" src="../../../assets/images/kits/{{kit.name}}.svg" alt="kit">
+            <p class="kit-name">{{kit.name}}</p>
+        </mat-card>
+    </div>
+</div>
+

@@ -1,0 +1,40 @@
+.kit-selection-section {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+h1 {
+    color: #673AB7;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+
+.kits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: auto;
+}
+
+.kit-card {
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}
+
+.kit-image {
+    width: 13rem;
+    height: 13rem;
+}
+
+.kit-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    color: #8B7575;
+    padding-top: 1rem;
+}

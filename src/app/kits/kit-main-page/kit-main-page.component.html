@@ -1,0 +1,12 @@
+<div *ngIf="isLogged; else unloggedBlock">
+    <app-logged-header></app-logged-header>
+</div>
+<ng-template #unloggedBlock>
+    <div>
+        <app-unlogged-header></app-unlogged-header>
+    </div>
+</ng-template>
+
+<app-initial-section></app-initial-section>
+<app-kit-selection></app-kit-selection>
+<app-footer></app-footer>
