@@ -1,0 +1,43 @@
+.initial-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 5rem 0 5rem;
+}
+
+.initial-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.initial-title {
+    width: 40rem;
+    line-height: 1;        
+    color: #673AB7;
+    font-size: 3.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.initial-subtitle {
+    width: 20rem;
+    color: #8B7575;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+.get-started-button {
+    margin: 0 0.25rem 0 0.25rem;
+    width: 7rem;
+    height: 2.75rem;
+    border: 2px solid #673AB7;
+    border-radius: 7px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: normal;
+    font-weight: 600;
+}

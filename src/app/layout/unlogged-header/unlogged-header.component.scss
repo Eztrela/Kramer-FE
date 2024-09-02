@@ -1,0 +1,24 @@
+.unlogged-header {
+    display: flex;
+    margin: 1.5rem 2rem 0 2rem;
+    gap: 80%
+}
+
+.buttons-section button {
+    margin: 0 0.25rem 0 0.25rem;
+    width: 5.75rem;
+    height: 2.2rem;
+    border: 2px solid #673AB7;
+    border-radius: 7px;
+    font-family: Nunito;
+    letter-spacing: normal;
+}
+
+.sign-up-button {
+    color: #673AB7 !important;
+    font-weight: 700;
+}
+
+.sign-in-button {
+    font-weight: 600;
+}
