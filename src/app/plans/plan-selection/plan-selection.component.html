@@ -1,0 +1,15 @@
+<div class="plan-selection-section">
+    <h1>SELECT A PLAN</h1>
+    <div class="plans">
+        <mat-card *ngFor="let plan of plans" class="plan-card" (click)="toggleSelected(plan)" [ngClass]="{ 'selected': isSelected(plan) }">
+            <img class="plan-image" src="../../../assets/images/plans/{{plan.duration}}.svg">
+            <p class="plan-price">$ {{plan.basePrice}}</p>
+            <p class="plan-duration">{{plan.duration}} days</p>
+            <p class="plan-num-of-clothes">{{plan.numOfClothes}} clothes</p>
+        </mat-card>
+    </div>
+    <div class="buttons-section">
+        <button class="back-button" mat-button color="basic" (click)="goToKits()">Back</button>
+        <button class="continue-button" mat-flat-button color="primary" [ngClass]="{ 'enabled': canContinue() }" (click)="goToClothes()">Continue</button>
+    </div>
+</div>
