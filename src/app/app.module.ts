@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserModule } from './user/user.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { KitsModule } from './kits/kits.module';
+import { PlansModule } from './plans/plans.module';
+import { LayoutModule } from './layout/layout.module';
 import { FirestoreModule } from './firestore/firestore.module';
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { FirestoreModule } from './firestore/firestore.module';
     HttpClientModule,
     UserModule,
     BrowserAnimationsModule,
+    KitsModule,
+    PlansModule,
+    LayoutModule,
     FirestoreModule
   ],
   providers: [],

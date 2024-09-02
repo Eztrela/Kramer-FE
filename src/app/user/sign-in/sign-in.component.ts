@@ -23,7 +23,7 @@ export class SignInComponent {
                 if (found[0]) {
                     if (found[0].password == this.password) {
                         this.userService.changeLoggedIn(true)
-                        alert("You have logged in")
+                        this.router.navigate(['/kits', found[0].id]);
                     } else {
                         alert(`Credenciais inválidas.`)
                     }

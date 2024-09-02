@@ -1,9 +1,8 @@
 export const firebaseConfig = {
-    apiKey: "AIzaSyCfTJ-Q4-yB1YoorWEiSoGEPIWoqQG8yE8",
-    authDomain: "kramer-clothing-c3a31.firebaseapp.com",
-    projectId: "kramer-clothing-c3a31",
-    storageBucket: "kramer-clothing-c3a31.appspot.com",
-    messagingSenderId: "240453726015",
-    appId: "1:240453726015:web:28e892c2182ba549e3ed8a",
-    measurementId: "G-B3W5KLCDL6"
-  };
+  apiKey: "AIzaSyBFbUQMg7Uyq8Lb3RxKhCJzKisu8yYaYKg",
+  authDomain: "fir-gps-63118.firebaseapp.com",
+  projectId: "fir-gps-63118",
+  storageBucket: "fir-gps-63118.appspot.com",
+  messagingSenderId: "682913542982",
+  appId: "1:682913542982:web:276bd4829cedc6ea5beb47"
+};
