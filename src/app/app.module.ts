@@ -8,7 +8,9 @@ import { UserModule } from './user/user.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { KitsModule } from './kits/kits.module';
 import { PlansModule } from './plans/plans.module';
+import { ClothingModule } from './clothing/clothing.module';
 import { LayoutModule } from './layout/layout.module';
+import { OrderModule } from './order/order.module';
 import { FirestoreModule } from './firestore/firestore.module';
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { FirestoreModule } from './firestore/firestore.module';
     BrowserAnimationsModule,
     KitsModule,
     PlansModule,
+    ClothingModule,
     LayoutModule,
+    OrderModule,
     FirestoreModule
   ],
   providers: [],

@@ -1,0 +1,49 @@
+.orders-list {
+    width: 60%;
+    margin: 4rem auto;
+    box-shadow: 0 3.5px 3.5px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+.mat-elevation-z8 {
+    margin-left: 1rem;
+    box-shadow: none;
+}
+
+table td{
+    font-family: Nunito;
+    text-align: center;
+
+    &.returned {
+        color: #acacac;
+    }
+}
+
+table th {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #673AB7;
+    text-align: center;
+}
+
+mat-icon {
+    color: #673AB7;
+    margin-left: 1rem;
+    cursor: pointer;
+    
+    &:hover {
+        opacity: 0.75;
+    }
+}
+
+img.return {
+    width: 1rem;
+    height: auto;
+    margin-right: 90%;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+}

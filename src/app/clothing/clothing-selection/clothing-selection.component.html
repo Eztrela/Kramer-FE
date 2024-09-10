@@ -1,0 +1,23 @@
+<div class="header">
+    <div class="logo-section">
+        <img src="../../../assets/logo/small-logo.svg" alt="logo">
+    </div>
+    <div class="buttons-section">
+        <button class="back-button" mat-button color="basic" (click)="goToPlans()">Back</button>
+        <button class="continue-button" mat-flat-button color="primary" [ngClass]="{ 'enabled': canContinue() }" (click)="goToFinalPage()">Continue</button>
+    </div>
+</div>
+<div class="clothing-selection">
+    <h1>SELECT YOUR CLOTHES</h1>
+    <div class="selection-info">
+        <p>Kit: <span class="purple">{{kit?.name}}</span></p>
+        <p>Clothes remaining: <span class="purple">{{clothesRemaining}}</span></p>
+    </div>
+    <div class="clothes">
+        <mat-card *ngFor="let clothing of clothes" class="clothing-card" (click)="toggleSelected(clothing)" [ngClass]="{ 'selected': isSelected(clothing), 'unavailable': isUnavailable(clothing)}">
+            <img class="clothing-image" src="../../../assets/clothes/cloth1.png" alt="clothing">
+            <p class="clothing-name">{{clothing.description}}</p>
+        </mat-card>
+    </div>
+</div>
+
