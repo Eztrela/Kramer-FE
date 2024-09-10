@@ -50,7 +50,7 @@ export class ClothingSelectionComponent implements OnInit{
             }
           );
 
-          if (this.order.kitId === '6MPRiCRtU6pQD0psEJbV') {
+          if (this.order.kitId === 'XxPVD4TS1L5AuhTdGPda') {
             this.clothingService.getAll().subscribe(
               response => {   
                 this.clothes = response;
